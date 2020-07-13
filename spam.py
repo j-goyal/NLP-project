@@ -1,4 +1,4 @@
-# Import Necessary Libraries
+﻿# Import Necessary Libraries
 import nltk
 import pandas as pd
 import numpy as np
@@ -15,7 +15,7 @@ print(df.head())
 classes = df[0]
 print(classes.value_counts())
 
-# PREPROCESS THE DATA
+# PREPROCESSING THE DATA
 from sklearn.preprocessing import LabelEncoder
 
 # convert class labels to binary values, 0 = ham and 1 = spam
